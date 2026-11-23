@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448758966779",
+    "project_id": "ami-inventory-manager",
+    "storage_bucket": "ami-inventory-manager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448758966779:android:79aa7b3ed2a0c79c2f435e",
+        "android_client_info": {
+          "package_name": "com.ami.inventory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl-wNYsaQQgZ7XGx5v-NmPgOBoUphnb-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
