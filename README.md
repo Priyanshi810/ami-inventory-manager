@@ -1,4 +1,4 @@
-# StockSense – AMI Inventory Management System 📦
+# StockSense – AMI Inventory Management System 
 
 [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Language-Kotlin-purple.svg)](https://kotlinlang.org)
@@ -11,7 +11,7 @@
 
 ---
 
-## 👥 Development Team & Roles
+## Development Team & Roles
 
 | Contributor | GitHub Profile | Responsibilities |
 | :--- | :--- | :--- |
@@ -21,9 +21,9 @@
 
 ---
 
-## 🌟 Core Modules Completed (Phase 1)
+##  Core Modules Completed (Phase 1)
 
-### 1. 📦 Dedicated Finished Goods Section
+### 1.  Dedicated Finished Goods Section
 * Complete inventory tracking for 120 ready-to-ship products:
   * **Air Freshener (AF - 200ml)** (30 Scents: `AMI-Air-01` to `AMI-Air-30`)
   * **Air Freshener Refill (AFR - 200ml)** (30 Scents: `AMI-Air-Ref-01` to `AMI-Air-Ref-30`)
@@ -31,26 +31,26 @@
   * **Car Perfume Refill (CFR - 35ml)** (30 Scents: `AMI-Car-Ref-01` to `AMI-Car-Ref-30`)
 * Real-time ready stock indicators with quick manual `+ / - Stock` adjustments.
 
-### 2. 🧪 Two-Tier Manufacturing & Liquid Formulations
+### 2.  Two-Tier Manufacturing & Liquid Formulations
 * **Intermediate Ready-Made Liquids**: Tracks bulk liquid stock for all 30 scents.
 * **Exact Liquid Formulations**:
   * **Air Freshener (AF / AFR)**: Fragrance Oil (6.00%) + Sarvonol (62.67%) + Heavy Water (31.33%)
   * **Car Perfume (CF / CFR)**: Fragrance Oil (15.00%) + Sarvonol (42.50%) + Heavy Water (42.50%)
 * **Assembly Engine**: Assembling finished goods automatically deducts ready-made liquid and packaging (bottles, caps, boxes, shrinkage rolls) via BOM and credits finished goods inventory.
 
-### 3. 🚚 Customer Orders & Dispatch
+### 3.  Customer Orders & Dispatch
 * Fulfill and dispatch customer orders by invoice/order number.
 * Live stock availability check before dispatch.
 * **Directly subtracts Finished Product inventory** upon dispatch.
 
-### 4. 🔔 Real-Time Stock Alerts & Audit Trail
+### 4.  Real-Time Stock Alerts & Audit Trail
 * Automated low-stock warning badges based on material lead times and reorder thresholds.
 * Comprehensive chronological audit log for all material receipts, order dispatches, batch assemblies, and liquid mixes.
 * Role-based access control (`ADMIN`, `PRODUCTION`, `INVENTORY`).
 
 ---
 
-## 🚀 Next Steps — Features to be Added (Phase 2)
+##  Next Steps — Features to be Added (Phase 2)
 
 As this is an ongoing project, the following features are scheduled for Phase 2:
 1. **Barcode / QR Code Scanning**: CameraX + Google ML Kit integration to scan incoming supplier materials and outgoing dispatch boxes.
@@ -61,7 +61,7 @@ As this is an ongoing project, the following features are scheduled for Phase 2:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Platform:** Android (API 26+)
 * **Language:** Kotlin 2.2.10
@@ -72,7 +72,7 @@ As this is an ongoing project, the following features are scheduled for Phase 2:
 
 ---
 
-## 💻 Getting Started
+##  Getting Started
 
 1. Clone the repository:
    ```bash
